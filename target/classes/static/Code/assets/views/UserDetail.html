@@ -1,0 +1,225 @@
+
+        <div class="row border-bottom">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
+                    <form role="search" class="navbar-form-custom" action="search_results.html">
+                        <div class="form-group">
+                            <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
+                        </div>
+                    </form>
+                </div>
+                <ul class="nav navbar-top-links navbar-right">
+
+                    <li class="dropdown">
+                        
+                    <li>
+                        <a href="login.html">
+                            <i class="fa fa-sign-out"></i> Log out
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+        <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="col-lg-10">
+                <h2>Users</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a href="#">Home > User > UserName</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="col-lg-2">
+
+            </div>
+        </div>
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            
+                        </div>
+                        <div class="ibox-content">
+                            <div method="get" class="form-horizontal">
+
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-5">
+                                            <label>First Name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        
+                                        <div class="col-sm-2">
+                                            <label>Middle Initial</label>
+                                            <input type="text"  class="form-control">
+                                        </div>
+
+                                        <div class="col-sm-3">
+                                             <label>Last Name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-9">
+                                            <label>Address</label>
+                                            <input type="text"  class="form-control">
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <label>City</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-4">
+                                            <label>State</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        
+                                        <div class="col-sm-4">
+                                            <label>Country</label>
+                                            <Select class="form-control">
+                                                <option></option>
+                                            </Select>
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                             <label>ZipCode</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-4">
+                                            <label>Email</label>
+                                            <input type="text"  class="form-control">
+                                        </div>
+                                        
+                                        <div class="col-sm-4">
+                                            <label>Re-Type Email</label>
+                                            <input type="text"  class="form-control">
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                             <label>Organization</label>
+                                            <input type="text"  class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-4">
+                                            <label>Telephone</label>
+                                            <input type="text"  class="form-control">
+                                        </div>
+                                        
+                                        <div class="col-sm-4">
+                                            <label>Password</label>
+                                            <input type="text"  class="form-control">
+                                        </div>
+
+                                        <div class="col-sm-4">
+                                             <label>Re-Type Password</label>
+                                            <input type="text"  class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        
+                                        <div class="col-sm-6">
+                                            <div><label>Role(s)</label></div>
+                                            <label> 
+                                            <input icheck type="checkbox">
+                                            Software </label>
+                                            <label> 
+                                            <input icheck type="checkbox">
+                                            ECUs </label>
+                                            <label> 
+                                            <input icheck type="checkbox">
+                                            Compaign </label>
+                                            
+                                        </div>        
+                                        <div class="col-sm-6">
+                                             <label>Vehicles</label>
+                                            <textarea type="text"  class="form-control">
+                                            </textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        
+                                        <div class="col-sm-6">
+                                            <label> 
+                                            <input icheck type="checkbox">
+                                            User </label>
+                                            <label> 
+                                            <input icheck type="checkbox">
+                                            System </label>
+                                            <label> 
+                                            <input icheck type="checkbox">
+                                            Software </label>
+                                            
+                                        </div>        
+                                        
+                                    </div>
+                                </div>
+
+                                
+                                
+                                <div class="form-group">
+                                    <div class="col-sm-4 col-sm-offset-8">
+                                        <button class="btn btn-white" type="submit">Cancel</button>
+                                        <button class="btn btn-success" type="submit" onclick="handleApprove();">Ok</button>
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="file" id="theFile" style="display: none;"/>
+            </div>
+
+
+        </div>
+        <div ng-include="'views/common/footer.html'"></div>
+
+    <script>
+        $(document).ready(function () {
+            var url=window.location.href;
+            var localParamArray=url.split("?");
+            if (localParamArray[1]!="") {
+                var localParamDefined = localParamArray[1].split("&");
+                $("#id").val(localParamDefined[0]);
+                $(".modifiedSoft").val(localParamDefined[1]);
+                $(".modifiedSoft")[0].text = localParamDefined[1];
+                $(".modifiedSoft")[1].innerHTML = localParamDefined[1];
+                $("#ecu").val(decodeURIComponent(localParamDefined[2]));
+                //$("#carModel").prepend("<option></option>").html(localParamDefined[3]);
+                $("#organization").val(decodeURIComponent(localParamDefined[4]));
+                /* $("#version").prepend("<option></option>").html(localParamDefined[5]);
+                 $("#version1").val(localParamDefined[5]);*/
+            }
+
+        });
+        function performClick(elemId) {
+            var elem = document.getElementById(elemId);
+            if(elem && document.createEvent) {
+                var evt = document.createEvent("MouseEvents");
+                evt.initEvent("click", true, false);
+                elem.dispatchEvent(evt);
+            }
+        }
+        function handleApprove(){
+            window.location.href="approvedSoftware.html"
+        }
+    </script>

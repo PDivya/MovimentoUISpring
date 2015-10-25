@@ -23,7 +23,7 @@
                 <a onclick="renderUM()" href="#"><i class="fa fa-database"></i> <span class="nav-label">Update Manager</span></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-user"></i> <span class="nav-label">User</span></a>
+                <a onclick="renderUser()" href=""><i class="fa fa-user"></i> <span class="nav-label">User</span></a>
             </li>
             <li>
                 <a href="#"><i class="fa fa-car"></i>Car</a>
@@ -50,7 +50,15 @@
         $.get("views/table_basic.html", function (data) {
             $('#wrapper').append(data);
         });
+        
+    }
+    function renderUser() {
+        $("#page-wrapper").empty();
+        $.get("views/User.html", function (data) {
+                $('#page-wrapper').append(data);
+        });
 
     }
+
 
     </script>
